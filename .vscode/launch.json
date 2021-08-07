@@ -1,0 +1,57 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    
+    {
+      "name": "Go: Launch file",
+      "type": "go",
+      "request": "launch",
+      "mode": "debug",
+      "program": "${file}"
+    },
+    {
+      "name": ".NET Core Launch (console)",
+      "type": "coreclr",
+      "request": "launch",
+      //"preLaunchTask": "build",
+      "program": "${workspaceFolder}/csharp/bin/Debug/net6.0/csharp.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Javascript Launch Program",
+      "program": "${fileDirname}/${fileBasename}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "java",
+      "name": "Java Launch Program",
+      "request": "launch",
+      "mainClass": "${fileDirname}/${fileBasename}"
+    },
+    {
+      "name": "Python Launch Program",
+      "type": "python",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasename}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "C++ Launch Program",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "launchCompleteCommand": "exec-run",
+      "preLaunchTask": "C/C++: g++ build active file",
+      "osx": {
+        "MIMode": "lldb"
+      }
+    }
+  ]
+}

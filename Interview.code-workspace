@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveshare.allowGuestDebugControl": true,
+		"liveshare.allowGuestTaskControl": true
+	},
+	"extensions": {
+		"recommendations": [
+			"vscjava.vscode-java-debug",
+			"redhat.java",
+			"ms-python.python"
+		]
+	}
+}
