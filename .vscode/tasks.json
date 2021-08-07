@@ -8,7 +8,7 @@
       "label": "C/C++: g++ build active file",
       "command": "/usr/bin/g++",
       "windows": {
-        "command": "C:/msys64/mingw64/bin/g++.exe",
+        "command": "C:/msys64/mingw64/bin/g++.exe"
       },
       "args": [
         "-g",
@@ -21,11 +21,7 @@
       },
       "problemMatcher": [
         "$gcc"
-      ],
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      }
+      ]
     },
     {
       "type": "shell",
@@ -37,15 +33,22 @@
     },
     {
       "type": "typescript",
-      "label": "tsc: build - tsconfig.json",
-      "tsconfig": "/typescript/tsconfig.json",
+      "label": "tsc: build - typescript/tsconfig.json",
+      "tsconfig": "typescript/tsconfig.json",
       "problemMatcher": [
-          "$tsc"
+        "$tsc"
       ],
-      "group": {
-          "kind": "build",
-          "isDefault": true
-      }
-  }
+      "group": "build"
+    },
+    {
+      "type": "typescript",
+      "tsconfig": "typescript/tsconfig.json",
+      "option": "watch",
+      "problemMatcher": [
+        "$tsc-watch"
+      ],
+      "group": "build",
+      "label": "tsc: watch - typescript/tsconfig.json"
+    }
   ]
 }
