@@ -9,6 +9,6 @@
     "ms-python.python",
     "golang.go",
     "scala-lang.scala",
-    "ms-dotnettools.csharp",
+    "ms-dotnettools.csharp"
   ]
 }

@@ -7,6 +7,9 @@
       "type": "shell",
       "label": "C/C++: g++ build active file",
       "command": "/usr/bin/g++",
+      "windows": {
+        "command": "C:/msys64/mingw64/bin/g++.exe",
+      },
       "args": [
         "-g",
         "${file}",
@@ -23,6 +26,26 @@
         "kind": "build",
         "isDefault": true
       }
-    }
+    },
+    {
+      "type": "shell",
+      "label": "C# build",
+      "command": "dotnet build",
+      "options": {
+        "cwd": "${workspaceFolder}/csharp/"
+      }
+    },
+    {
+      "type": "typescript",
+      "label": "tsc: build - tsconfig.json",
+      "tsconfig": "/typescript/tsconfig.json",
+      "problemMatcher": [
+          "$tsc"
+      ],
+      "group": {
+          "kind": "build",
+          "isDefault": true
+      }
+  }
   ]
 }

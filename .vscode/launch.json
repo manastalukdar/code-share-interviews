@@ -1,7 +1,14 @@
 {
   "version": "0.2.0",
   "configurations": [
-    
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Typescript Launch Program",
+      "program": "${workspaceFolder}/typescript/code.ts",
+      "preLaunchTask": "tsc: build - tsconfig.json",
+      "outFiles": ["${workspaceFolder}/typescript/out/**/*.js"]
+    },
     {
       "name": "Go: Launch file",
       "type": "go",
@@ -13,7 +20,7 @@
       "name": ".NET Core Launch (console)",
       "type": "coreclr",
       "request": "launch",
-      //"preLaunchTask": "build",
+      "preLaunchTask": "C# build",
       "program": "${workspaceFolder}/csharp/bin/Debug/net6.0/csharp.dll",
       "args": [],
       "cwd": "${workspaceFolder}",
@@ -41,16 +48,29 @@
       "console": "integratedTerminal"
     },
     {
-      "name": "C++ Launch Program",
+      "name": "g++.exe - Build and debug active file",
       "type": "cppdbg",
       "request": "launch",
       "program": "${fileDirname}/${fileBasenameNoExtension}",
       "stopAtEntry": false,
       "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
       "launchCompleteCommand": "exec-run",
       "preLaunchTask": "C/C++: g++ build active file",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
       "osx": {
         "MIMode": "lldb"
+      },
+      "windows": {
+        "MIMode": "gdb",
+        "miDebuggerPath": "C:\\msys64\\mingw64\\bin\\gdb.exe",
       }
     }
   ]

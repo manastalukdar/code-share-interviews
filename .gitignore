@@ -44,3 +44,5 @@ code
 cplusplus/code.*/
 
 .DS_Store
+
+typescript/out/
