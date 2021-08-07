@@ -44,6 +44,6 @@ Install [Python](https://www.python.org/downloads/). I recommend installing the 
 
 ## Typescript
 
-- Install Node.js from [here](https://nodejs.org/en/).
+- Install [Node.js](https://nodejs.org/en/).
 - Install Typescript: `npm install -g typescript`.
 - Install `ts- node`: `npm install -g ts-node`.
