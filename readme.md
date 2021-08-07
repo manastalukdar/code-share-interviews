@@ -4,10 +4,10 @@ This repository will be used for coding problem during the interview. Follow the
 
 - Install [VSCode](https://code.visualstudio.com).
 - Clone this repository.
-- Depending on what programming language you want to use for the coding problem, be sure to set up your local OS environment and install necessary language SDK following instruction below for the corresponding programming language.
+- Be sure to set up your local OS environment and install necessary language SDK following instruction below for the corresponding programming language.
 - Open VSCode and open the directory where you cloned this repository.
 - Go to the extensions pane and click on `'''` -> Views -> Recommended. Be sure to install the recommended extensions, specially the one related to the programming language you will be using for the coding problem.
-- Open the code file for your language of choice and ensure you are able to build and debug it. The repository contains all the necessary VSCode launch configurations and tasks for running and debugging the code for supported programming languages.
+- Open the code file for your language of choice and ensure you are able to build and debug it. The repository contains all the necessary VSCode launch configurations and tasks for running and debugging the code for the supported programming languages.
 
 ## C++
 
