@@ -4,5 +4,10 @@
   ],
   "liveshare.allowGuestDebugControl": true,
   "liveshare.allowGuestTaskControl": true,
-  "liveshare.joinDebugSessionOption":"Automatic"
+  "liveshare.joinDebugSessionOption": "Automatic",
+  "files.watcherExclude": {
+    "**/target": true
+  },
+  "c3.rootPackage": "",
+  "metals.javaHome": "C:\\Program Files\\Eclipse Foundation\\jdk-11.0.12.7-hotspot\\"
 }

@@ -49,6 +49,26 @@
       ],
       "group": "build",
       "label": "tsc: watch - typescript/tsconfig.json"
+    },
+    {
+      "type": "shell",
+      "label": "scala compile",
+      "command": "sbt compile",
+      "options": {
+        "cwd": "${workspaceFolder}/scalacode/"
+      }
+    },
+    {
+      "type": "shell",
+      "label": "scala run",
+      "command": "sbt run",
+      "dependsOrder": "sequence",
+      "dependsOn": [
+        "scala compile"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/scalacode/"
+      }
     }
   ]
 }

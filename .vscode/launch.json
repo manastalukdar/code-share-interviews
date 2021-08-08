@@ -2,6 +2,21 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "scala",
+      "request": "launch",
+      "name": "Scala Launch test class",
+      "testClass": "${fileDirname}/${fileBasename}"
+    },
+    {
+      "type": "scala",
+      "request": "launch",
+      "name": "Scala Launch main class",
+      "mainClass": "${file}",
+      "args": [],
+      "jvmOptions": [],
+      "env": {}
+    },
+    {
       "type": "node",
       "request": "launch",
       "name": "Typescript Launch Program",

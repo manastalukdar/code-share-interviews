@@ -32,12 +32,17 @@ __pycache__
 obj
 
 # scala
-.metals 
+.metals
+.bloop
+.ammonite/
+metals.sbt
+null
+target
+scalacode/target/
+scalacode/project/
 
 # jenv
 .java-version
-
-null
 
 # C++
 code

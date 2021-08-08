@@ -9,6 +9,7 @@
     "ms-python.python",
     "golang.go",
     "scala-lang.scala",
+    "scalameta.metals",
     "ms-dotnettools.csharp"
   ]
 }
