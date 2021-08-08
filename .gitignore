@@ -39,7 +39,7 @@ metals.sbt
 null
 target
 scalacode/target/
-scalacode/project/
+scalacode/project/target
 
 # jenv
 .java-version
