@@ -2,6 +2,8 @@
 
 This repository will be used for coding problem during the interview. Follow the steps below to set up your environment.
 
+## Before the Interview
+
 - Install [VSCode](https://code.visualstudio.com).
 - Clone this repository.
 - Be sure to set up your local OS environment and install necessary language SDK following instruction below for the corresponding programming language.
@@ -9,7 +11,14 @@ This repository will be used for coding problem during the interview. Follow the
 - Go to the extensions pane and click on `'''` -> Views -> Recommended. Be sure to install the recommended extensions, specially the one related to the programming language you will be using for the coding problem.
 - Open the code file for your language of choice and ensure you are able to build and debug it. The repository contains all the necessary VSCode launch configurations and tasks for running and debugging the code for the supported programming languages.
 
-## C++
+## During the Interview
+
+- You will be provided a link to share coding session in VSCode using Live Share.
+- If you have not installed the necessary language SDK and / or ensured that you have been able to debug / run the hello world program, the code share session at your end will be limited to functioning as a text editor. The interviewer will still be able to run the code and help you debug, but full IDE functionality will be very limited at your end.
+
+## Programming Language Specific Setup
+
+### C++
 
 Download and install [mingw-w64](http://mingw-w64.org/doku.php/download).
 
@@ -22,27 +31,27 @@ pacman -S mingw-w64-x86_64-toolchain
 pacman -S mingw-w64-x86_64-cmake
 ```
 
-## CSharp
+### CSharp
 
 Install [.NET](https://dotnet.microsoft.com/download/dotnet/6.0).
 
-## Go
+### Go
 
 Install [Go](https://golang.org/dl/).
 
-## Java
+### Java
 
 Install [OpenJDK](https://adoptium.net/). I recommend installing the latest LTS version.
 
-## Javascript
+### Javascript
 
 Install [Node.js](https://nodejs.org/en/).
 
-## Python
+### Python
 
 Install [Python](https://www.python.org/downloads/). I recommend installing the latest stable 3.x version.
 
-## Typescript
+### Typescript
 
 - Install [Node.js](https://nodejs.org/en/).
 - Install Typescript: `npm install -g typescript`.
