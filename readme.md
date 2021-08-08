@@ -18,7 +18,7 @@ This repository will be used for coding problem during the interview. Follow the
 
 ## Programming Language Specific Setup
 
-### C++
+### C / C++
 
 Download and install [mingw-w64](http://mingw-w64.org/doku.php/download).
 
