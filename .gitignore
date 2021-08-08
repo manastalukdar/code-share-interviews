@@ -38,6 +38,7 @@ obj
 metals.sbt
 null
 target
+project
 scalacode/target/
 scalacode/project/target
 
