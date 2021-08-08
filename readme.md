@@ -51,14 +51,14 @@ Install [Node.js](https://nodejs.org/en/).
 
 Install [Python](https://www.python.org/downloads/). I recommend installing the latest stable 3.x version.
 
-### Typescript
-
-- Install [Node.js](https://nodejs.org/en/).
-- Install Typescript: `npm install -g typescript`.
-- Install `ts- node`: `npm install -g ts-node`.
-
 ### Scala
 
 - Install [Scala3](https://www.scala-lang.org/download/scala3.html) through [sbt](https://www.scala-sbt.org/download.html).
 - Install [JDK 11](https://adoptium.net/).
 - Update `"metals.javaHome"` in `.vscode/settings.json` to point to the correct location for JDK 11.
+
+### Typescript
+
+- Install [Node.js](https://nodejs.org/en/).
+- Install Typescript: `npm install -g typescript`.
+- Install `ts- node`: `npm install -g ts-node`.
