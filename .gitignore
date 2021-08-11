@@ -48,6 +48,7 @@ scalacode/project/target
 # C++
 code
 cplusplus/code.*/
+c/code.*/
 
 .DS_Store
 
