@@ -40,7 +40,7 @@ null
 target
 project
 scalacode/target/
-scalacode/project/target
+scalacode/project/
 
 # jenv
 .java-version
