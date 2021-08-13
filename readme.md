@@ -20,6 +20,8 @@ This repository will be used for coding problem during the interview. Follow the
 
 ### C / C++
 
+If you are on a Mac or Linux, you should already have the necessary development tools (GCC, G++) installed.
+
 Download and install [mingw-w64](http://mingw-w64.org/doku.php/download).
 
 If you are on Windows, I highly recommend installing [msys2](https://www.msys2.org) (to `C:\msys64`). After installation, run the following from the `msys2` shell:
