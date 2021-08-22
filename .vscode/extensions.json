@@ -1,5 +1,6 @@
 {
   "recommendations": [
+    "MS-vsliveshare.vsliveshare",
     "vscjava.vscode-java-debug",
     "vscjava.vscode-java-dependency",
     "vscjava.vscode-java-pack",
