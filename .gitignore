@@ -40,7 +40,7 @@ null
 target
 project
 scalacode/target/
-scalacode/project/target
+scalacode/project/
 
 # jenv
 .java-version
@@ -48,6 +48,7 @@ scalacode/project/target
 # C++
 code
 cplusplus/code.*/
+c/code.*/
 
 .DS_Store
 

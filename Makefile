@@ -5,7 +5,7 @@
 
 compile-c:
 	@echo "**** compile-c ****"
-	g++ -g ./c/code.c -o ./c/code
+	gcc -g ./c/code.c -o ./c/code
 	@echo ""
 
 compile-cplusplus:
